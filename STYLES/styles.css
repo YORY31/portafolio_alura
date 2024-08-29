@@ -19,6 +19,9 @@ body {
     background: var(--color-primario);
     color: var(--color-secundario);
     box-sizing: border-box;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
 .header{
     padding: 2% 0% 0% 15%;
